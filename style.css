@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} /* Serve para alterar as propriedades de todos os elementos presentes no body para que não fiquem conflitantes com outros elementos.*/ 
+
+body{
+    background-color: rgba(12, 13, 53, 0.886);
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+h2{
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.Texto{
+    background-color: rgb(234, 220, 204);
+}
+.jogar{
+    position: absolute;
+    right: 48%;
+    padding: 10px 10px 10px 10px;
+}
